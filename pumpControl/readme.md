@@ -2,8 +2,7 @@
 
 <h2>Demonstration</h2>
 
-https://github.com/Seanyap90/IoTCloud/assets/34641712/24fc0a9d-244b-48d3-9cc9-0e0cd21322bc
-
+https://github.com/Seanyap90/IoTCloud/assets/34641712/a61084d2-1336-40a2-8309-f420b96ab983
 
 This demo simulates an industrial sampling operation where a tank is used to take liquid samples, so pumps are utilised to assist in the extraction of samples from main operational tanks.  Sampling operations can either be left automated or be conducted by a user on his own.
 
