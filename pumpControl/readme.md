@@ -29,8 +29,7 @@ This demo simulates an industrial sampling operation where a tank is used to tak
 
 <h2>High level System Design</h2>
 
-![CloudArchitectureForIoT1](https://github.com/Seanyap90/IoTCloud/assets/34641712/7447e16a-78da-4359-a8e4-6f82c170c83d)
-
+![CloudArchitectureForIoT1](https://github.com/Seanyap90/IoTCloud/assets/34641712/f0b85f3a-7c2d-43d8-b2aa-5ffb8aa03b07)
 
 <h2>Relevant applications</h2>
 
