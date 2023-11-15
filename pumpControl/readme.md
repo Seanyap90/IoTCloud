@@ -31,6 +31,7 @@ This demo simulates an industrial sampling operation where a tank is used to tak
 
 ![CloudArchitectureForIoT1](https://github.com/Seanyap90/IoTCloud/assets/34641712/7447e16a-78da-4359-a8e4-6f82c170c83d)
 
+
 <h2>Relevant applications</h2>
 
 - Oil and gas
