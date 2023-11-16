@@ -31,6 +31,29 @@ This demo simulates an industrial sampling operation where a tank is used to tak
 
 ![CloudArchitectureForIoT1](https://github.com/Seanyap90/IoTCloud/assets/34641712/f0b85f3a-7c2d-43d8-b2aa-5ffb8aa03b07)
 
+<h3>System Design Details</h3>
+
+<p>A bash application is launched on a raspberry pi to simulate a pump.  The simulated pump publishes operational status whil receving user driven commands after user toggles between buttons and add sampling input under manual mode</p>
+
+<h3>Cloud infrastructure High Level Details</h3>
+
+- IoT Core
+  - Pub/sub MQTT topics in form of pump/<device-id>*/<operation>
+  - Operation refers to mode, change and count
+  - Use AWS IoT Rules to route messages from pump/<device-id>*/# or specific topics
+- Lambda functions (coded in nodejs)
+  - 1 nodejs function to connect to Websockets from API gateway
+  - 1 nodejs function for filtering between messages from IoT Core and updating database accordingly
+  - 1 nodejs function for sending updates to client upon update of database
+  - 1 nodejs function for receiving messages from client through Websockets and posting to MQTT topic subscribed by simulated device
+- Database
+  - 1 partition key used
+  - It will store mode status.  Any change will trigger the lambda function to send updates to client
+- Websocket configuration under API Gateway
+  - Map $connect route to lambda function that enables connection to Websocket
+  - Map $default to lambda function receiving messages from client, updating of database and posting to MQTT topic.  Ensure that the path is bidirectional
+  - Map a custom route to lambda function enabling updates to database
+
 <h2>Relevant applications</h2>
 
 - Oil and gas
