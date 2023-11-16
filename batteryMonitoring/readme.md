@@ -19,6 +19,7 @@ https://github.com/Seanyap90/IoTCloud/assets/34641712/b359d61c-ada0-4fab-836c-3f
 - Assume device has consistent connection to network to transmit data
 
 <h2>High Level System Design</h2>
+
 ![CloudArchitectureForIoT2](https://github.com/Seanyap90/IoTCloud/assets/34641712/a18ea859-fb12-4b61-ab7c-62ea48d16ce2)
 
 
