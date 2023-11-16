@@ -3,3 +3,16 @@
 <h2>Demonstration</h2>
 
 https://github.com/Seanyap90/IoTCloud/assets/34641712/b359d61c-ada0-4fab-836c-3fa1e7a188e8
+
+<h2>Uses and Constraints</h2>
+
+- User wants to know battery levels in real time
+- User wants to know whether the battery is charging
+- User wants to be alerted when there is a significant change, in this case, low levels of charge
+- Service provides analytics for 24 hour trends of battery levels.  User can know the level of battery usage, the speed of charge and discharge, as well as the types of charging (regular charging, hot swap etc.) being used to charge the battery.
+
+<h2>Relevant Applications</h2>
+
+- EV charging
+- Robot charging
+- Smart glass battery charging, especially for high utilisation cases
