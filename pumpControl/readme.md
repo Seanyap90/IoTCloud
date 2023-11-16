@@ -33,7 +33,7 @@ This demo simulates an industrial sampling operation where a tank is used to tak
 
 <h3>System Design Details</h3>
 
-<p>A bash application is launched on a raspberry pi to simulate a pump.  The simulated pump publishes operational status whil receving user driven commands after user toggles between buttons and add sampling input under manual mode</p>
+<p>A bash application is launched on a raspberry pi to simulate a pump.  The simulated pump publishes operational status whil receving user driven commands after user toggles between buttons and add sampling input under manual mode.  The initiation of these actions are done via pub sub mechanisms.</p>
 
 <h3>Cloud infrastructure High Level Details</h3>
 
