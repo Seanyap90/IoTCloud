@@ -1,4 +1,4 @@
-<h1>Cloud based control panel application for pump control</h1>
+<h1>Cloud based control panel application for control of industrial equipment</h1>
 
 <h2>Demonstration</h2>
 
