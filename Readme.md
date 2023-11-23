@@ -1,4 +1,4 @@
-<h1>IoT example applications with cloud infrastructure design</h1>
+<h1>IoT example applications with system and cloud infrastructure design</h1>
 
 <h2>Real Time Monitoring</h2>
 <p>Services used: IoT Core, Lambda, System Manager, API Gateway (Websockets)</p>
