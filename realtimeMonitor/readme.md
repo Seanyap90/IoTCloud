@@ -1,4 +1,4 @@
-<h1>Battery Monitoring Dashboard</h1>
+<h1>Real time Monitoring Dashboard</h1>
 
 <h2>Demonstration</h2>
 
@@ -25,6 +25,5 @@ https://github.com/Seanyap90/IoTCloud/assets/34641712/b359d61c-ada0-4fab-836c-3f
 
 <h2>Relevant Applications</h2>
 
-- EV charging
-- Robot charging docks
-- Smart glass battery charging, especially for high utilisation cases
+- real time sensor monitoring
+- real time battery level monitoring
