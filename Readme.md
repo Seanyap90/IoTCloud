@@ -8,7 +8,9 @@
 <h2>Cloud based Real Time Monitoring</h2>
 <p>Services used: IoT Core, Lambda, System Manager, API Gateway (Websockets)</p>
 <p>Monitoring panel is a single page react app.</p>
+<p>Simulated device consists of a raspberry pi and a python script</p>
 
 <h2>Cloud based Remote Control Panel</h2>
 <p>Services used: IoT Core, Lambda, DynamoDB, System Manager, API Gateway (Websockets)</p>
 <p>Control panel is a single page react app.</p>
+<p>Simulated device consists of a raspberry pi and a shell application</p>
