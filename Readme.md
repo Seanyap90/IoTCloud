@@ -3,7 +3,7 @@
 <p>Please send me an email at sean.sq.yap@gmail.com for the full codes for the simulated device, cloud functions and UI</p>
 
 <h2>Embedded Display</h2>
-<p>This is mainly a hardware based project involving arduino boards to build a display.  Future vision could include IoT functionalities</p>
+<p>This is mainly a hardware based project involving arduino boards to build a display.  Future version could include IoT functionalities and the usage of ESP32 boards</p>
 
 <h2>Cloud based Real Time Monitoring</h2>
 <p>Services used: IoT Core, Lambda, System Manager, API Gateway (Websockets)</p>
